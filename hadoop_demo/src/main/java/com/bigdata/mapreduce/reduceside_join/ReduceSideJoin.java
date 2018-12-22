@@ -1,4 +1,4 @@
-package com.bigdata.mapreduce.reduce_join;
+package com.bigdata.mapreduce.reduceside_join;
 
 import org.apache.commons.beanutils.BeanUtils;
 import org.apache.hadoop.conf.Configuration;

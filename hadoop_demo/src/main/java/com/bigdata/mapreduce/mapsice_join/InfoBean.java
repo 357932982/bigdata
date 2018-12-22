@@ -1,13 +1,11 @@
-package com.bigdata.mapreduce.reduce_join;
+package com.bigdata.mapreduce.mapsice_join;
 
-import lombok.Data;
 import org.apache.hadoop.io.Writable;
 
 import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
-@Data
 public class InfoBean implements Writable {
 
     private int order_id;
